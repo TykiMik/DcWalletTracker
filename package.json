@@ -1,0 +1,23 @@
+{
+  "name": "WalletDCBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.2",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.3.5",
+    "winston": "^3.7.2",
+    "winston-daily-rotate-file": "^4.7.1",
+    "ws": "^8.7.0"
+  }
+}
