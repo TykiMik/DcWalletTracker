@@ -1,4 +1,4 @@
-# DcWalletTracker
+# DcWalletTracker - main
 
 Usage: Set the parameters in the .env file or in system enviroment variables
 
